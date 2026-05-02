@@ -7,6 +7,7 @@
     <meta name="description" content="滑石きたむら動物病院の公式サイトです。ご挨拶、強み、サービス、お知らせ、アクセス、お問い合わせなどの情報を提供しています。">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="/images/favicon.png">
 </head>
 
 <body>
@@ -16,7 +17,7 @@
       <div class="inner">
         <div class="header__logo">
           <h1>
-            <img src="./images/足跡_1.jpg" alt="滑石きたむら動物病院のロゴ"> 
+            <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ"> 
             <a href="#">滑石きたむら動物病院</a>
           </h1>
         </div>
@@ -59,18 +60,22 @@
             <p class="greeting__text">当院は地域に密着し、皆さまの大切な家族の一員である動物たちのホームドクターを目指しています。<br>
 緊急時だけではなく、日常のちょっとした不安や違和感などお気軽にご相談ください。<br>
 動物たちが健康で幸せな生活を送ることができるようサポートいたします。</p>
-            <img src="./images/足跡_2.jpg" alt="足跡のイラスト" class="greeting__image">
+            <img src="./images/footprint_2.svg" alt="足跡のイラスト" class="greeting__image">
           </div>
        </section>
       
     <!-- about -->
         <section id="about" class="about">
             <div class="inner">
-              <h3 class="about__title">
-                <img src="./images/足跡_1.svg" alt="滑石きたむら動物病院のロゴ"> 
-                強み
-                <img src="./images/足跡_1.svg" alt="滑石きたむら動物病院のロゴ"> 
-              </h3>
+              <div class="about__title">
+                <div>
+                  <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ"> 
+                </div>
+                <h2>強み</h2>
+                <div>
+                  <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ">
+                </div> 
+              </div>
               <div class="about__items">
                 <div class="about__item">
                   <div class="about__item-textarea">
@@ -115,11 +120,15 @@
         <!-- service -->
           <section id="service" class="service">
             <div class="inner">
-              <h3 class="service__title">
-                <img src="./images/足跡_1.svg" alt="滑石きたむら動物病院のロゴ"> 
-                サービス
-                <img src="./images/足跡_1.svg" alt="滑石きたむら動物病院のロゴ"> 
-              </h3>
+              <div class="service__title">
+                <div>
+                  <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ"> 
+                </div>
+                <h2>サービス</h2>
+                <div>
+                  <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ"> 
+                </div>
+              </div>
               <div class="service__items">
                 <div class="service__item">
                   <div class="service__image">
@@ -164,11 +173,15 @@
         <!-- news -->
           <section id="news" class="news">
             <div class="inner">
-              <h3 class="news__title">
-                <img src="./images/足跡_1.svg" alt="滑石きたむら動物病院のロゴ"> 
-                お知らせ
-                <img src="./images/足跡_1.svg" alt="滑石きたむら動物病院のロゴ"> 
-              </h3>
+              <div class="news__title">
+                <div>
+                  <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ"> 
+                </div>
+                </h2>お知らせ</h2>
+                <div>
+                  <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ"> 
+                </div>
+              </div>
               <div class="news__contents">
                 <div class="news__items">
 
@@ -252,11 +265,11 @@
             <div class="inner">
               <div class="access__title">
                 <div class="title-icon">
-                  <img src="./images/足跡_1.svg" alt="滑石きたむら動物病院のロゴ">
+                  <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ">
                 </div> 
                 <h2>アクセス</h2>
                 <div class="title-icon">
-                  <img src="./images/足跡_1.svg" alt="滑石きたむら動物病院のロゴ">
+                  <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ">
                 </div>
               </div>
               <div class="access__contents">
@@ -273,10 +286,12 @@
                     </div>
                     <div class="access-item__tel">
                       <span>電話：</span>
-                      <a href="tel:000-0000-0000">000-0000-0000</a>
+                      <span class="tel-pc">000-0000-0000</span>
+                      <a href="tel:000-0000-0000" class="tel-sp">000-0000-0000</a>
                     </div>
                     <div class="access-item__mail">
-                      <p>メール：info@example.com</p>
+                      <span>メール：</span>
+                      <a href="mailto:info@example.com">info@example.com</a>
                     </div>
                     <div class="access-item__time">
                       <p>診療時間：24時間365日</p>
@@ -293,11 +308,11 @@
           <div class="inner">
             <div class="contact__title">
               <div class="title-icon">
-                <img src="./images/足跡_1.svg" alt="滑石きたむら動物病院のロゴ">
+                <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ">
               </div> 
               <h2>お問い合わせ</h2>
               <div class="title-icon">
-                <img src="./images/足跡_1.svg" alt="滑石きたむら動物病院のロゴ">
+                <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ">
               </div>
             </div>
             <div class="contact__contents">
@@ -374,16 +389,24 @@
       <div class="footer__sns">
         <ul>
           <li>
-            <img src="./images/icon_twitter.png" alt="Twitterのロゴ">
+            <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+              <img src="./images/icon_twitter.svg" alt="Twitterのロゴ">
+            </a>
           </li>
           <li>
-            <img src="./images/icon_facebook.png" alt="facebookのロゴ">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+              <img src="./images/icon_facebook.svg" alt="facebookのロゴ">
+            </a>
           </li>
           <li>
-            <img src="./images/icon_youtube.png" alt="youtubeのロゴ">
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+              <img src="./images/icon_youtube.svg" alt="youtubeのロゴ">
+            </a>
           </li>
           <li>
-            <img src="./images/icon_instagram.png" alt="Instagramのロゴ">
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+              <img src="./images/icon_instagram.svg" alt="Instagramのロゴ">
+            </a>
           </li>
         </ul>
       </div>
