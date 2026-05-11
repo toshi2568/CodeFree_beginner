@@ -7,7 +7,7 @@
     <meta name="description" content="滑石きたむら動物病院の公式サイトです。ご挨拶、強み、サービス、お知らせ、アクセス、お問い合わせなどの情報を提供しています。">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="/images/favicon.png">
+    <link rel="icon" href="./images/favicon.png">
 </head>
 
 <body>
@@ -15,13 +15,15 @@
     <!-- header -->
     <header class="header">
       <div class="inner">
-        <div class="header__logo">
-          <h1>
-            <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ"> 
-            <a href="#">滑石きたむら動物病院</a>
-          </h1>
-        </div>
-        <div class="header__nav pc">
+        <h1 class="header__logo">
+          <a href="#">
+            <span class="logo-icon">
+              <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ"> 
+            </span>
+            <span class="logo-text">滑石きたむら動物病院</span>
+          </a>
+        </h1>
+        <nav class="header__nav pc">
           <ul>
             <li><a href="#greeting">ご挨拶</a></li>
             <li><a href="#about">強み</a></li>
@@ -30,7 +32,7 @@
             <li><a href="#access">アクセス</a></li>
             <li><a href="#contact">お問い合わせ</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
     </header>
     
@@ -47,8 +49,10 @@
         </div>
         <div class="mv__contents">
           <div class="mv__catch">
-            <h2>滑石きたむら動物病院は</h2>
-            <p>大切な家族の<br>ホームドクターです</p>
+            <h2>
+              <span class="mv__small">滑石きたむら動物病院は</span>
+              <span class="mv__large"><br>大切な家族の<br>ホームドクターです</span>
+            </h2>
           </div>
         </div>
       </section>
@@ -56,8 +60,8 @@
       <!-- greeting -->
        <section id="greeting" class="greeting">
           <div class="inner">
-            <h3 class="greeting__title">動物たちの健康で<br class="sp">幸せな生活をサポート</h3>
-            <p class="greeting__text">当院は地域に密着し、皆さまの大切な家族の一員である動物たちのホームドクターを目指しています。<br>
+            <h2 class="greeting__title">動物たちの健康で<br class="sp">幸せな生活をサポート</h2>
+            <p class="greeting__text">当院は地域に密着し、皆さまの大切な家族の一員である動物たちの<span class="pc-br">ホームドクターを目指しています。</span><br>
 緊急時だけではなく、日常のちょっとした不安や違和感などお気軽にご相談ください。<br>
 動物たちが健康で幸せな生活を送ることができるようサポートいたします。</p>
             <img src="./images/footprint_2.svg" alt="足跡のイラスト" class="greeting__image">
@@ -67,19 +71,19 @@
     <!-- about -->
         <section id="about" class="about">
             <div class="inner">
-              <div class="about__title">
-                <div>
+              <div class="about__title section-title">
+                <div class="title-icon">
                   <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ"> 
                 </div>
                 <h2>強み</h2>
-                <div>
+                <div class="title-icon">
                   <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ">
                 </div> 
               </div>
               <div class="about__items">
                 <div class="about__item">
                   <div class="about__item-textarea">
-                    <h4 class="about__item-title">経験豊富なスタッフが<br class="sp">24時間365日常駐</h4>
+                    <h3 class="about__item-title">経験豊富なスタッフが<br class="sp">24時間365日常駐</h3>
                     <p class="about__item-text">当院は24時間365日いつでも対応できるよう、豊富な経験を持つ獣医師や看護師が約50名体制で常駐しております。</p>
                   </div>
                   <div class="about__image">
@@ -91,7 +95,7 @@
                 </div>
                 <div class="about__item reverse">
                   <div class="about__item-textarea">
-                    <h4 class="about__item-title">エキゾチックアニマルも対応します</h4>
+                    <h3 class="about__item-title">エキゾチックアニマルも対応します</h3>
                     <p class="about__item-text">犬・猫だけではなく、ウサギやハムスター、爬虫類や両生類、鳥類などエキゾチックアニマルも対応しております。</p>
                   </div>
                   <div class="about__image">
@@ -103,7 +107,7 @@
                 </div>
                 <div class="about__item">
                   <div class="about__item-textarea">
-                    <h4 class="about__item-title">ご自宅まで伺う往診も行っています</h4>
+                    <h3 class="about__item-title">ご自宅まで伺う往診も行っています</h3>
                     <p class="about__item-text">外出が難しい動物たちや飼い主さまのために、獣医師や看護師がご自宅まで伺う往診サービスも行っております。</p>
                   </div>
                   <div class="about__image">
@@ -120,12 +124,12 @@
         <!-- service -->
           <section id="service" class="service">
             <div class="inner">
-              <div class="service__title">
-                <div>
+              <div class="service__title section-title">
+                <div class="title-icon">
                   <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ"> 
                 </div>
                 <h2>サービス</h2>
-                <div>
+                <div class="title-icon">
                   <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ"> 
                 </div>
               </div>
@@ -138,7 +142,7 @@
                     </picture>
                   </div>
                   <div class="service__item-textarea">
-                    <h4 class="service__item-title">往診サービス</h4>
+                    <h3 class="service__item-title">往診サービス</h3>
                     <p class="service__item-text">シニアや介護などのペットのための自宅で診療するサービスです。</p>
                   </div>
                 </div>
@@ -150,7 +154,7 @@
                     </picture>
                   </div>
                   <div class="service__item-textarea">
-                    <h4 class="service__item-title">ペットホテル</h4>
+                    <h3 class="service__item-title">ペットホテル</h3>
                     <p class="service__item-text">短時間の一時預かりから宿泊までご利用いただけるサービスです。</p>
                   </div>
                 </div>
@@ -162,7 +166,7 @@
                     </picture>
                   </div>
                   <div class="service__item-textarea">
-                    <h4 class="service__item-title">トリミング</h4>
+                    <h3 class="service__item-title">トリミング</h3>
                     <p class="service__item-text">動物の体に負担をかけない技術や液剤を使用いたします。</p>
                   </div>
                 </div>
@@ -173,12 +177,12 @@
         <!-- news -->
           <section id="news" class="news">
             <div class="inner">
-              <div class="news__title">
-                <div>
+              <div class="news__title section-title">
+                <div class="title-icon">
                   <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ"> 
                 </div>
-                </h2>お知らせ</h2>
-                <div>
+                <h2>お知らせ</h2>
+                <div class="title-icon">
                   <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ"> 
                 </div>
               </div>
@@ -188,7 +192,7 @@
                   <article>
                     <a href="" class="news__item news-item">
                       <div class="news-item__date">
-                        <time>0000.00.00</time>                        
+                        <time datetime="0000-00-00">0000.00.00</time>                        
                       </div>
                       <div class="news-item__title">
                         <h3>去勢手術の助成金</h3>  
@@ -202,7 +206,7 @@
                   <article>
                     <a href="" class="news__item news-item">
                       <div class="news-item__date">
-                        <time>0000.00.00</time>                        
+                        <time datetime="0000-00-00">0000.00.00</time>                        
                       </div>
                       <div class="news-item__title">
                         <h3>往診の範囲が拡大</h3>  
@@ -216,7 +220,7 @@
                   <article>
                     <a href="" class="news__item news-item">
                       <div class="news-item__date">
-                        <time>0000.00.00</time>                        
+                        <time datetime="0000-00-00">0000.00.00</time>                        
                       </div>
                       <div class="news-item__title">
                         <h3>新年のご挨拶</h3>  
@@ -230,7 +234,7 @@
                   <article>
                     <a href="" class="news__item news-item">
                       <div class="news-item__date">
-                        <time>0000.00.00</time>                        
+                        <time datetime="0000-00-00">0000.00.00</time>                        
                       </div>
                       <div class="news-item__title">
                         <h3>年末年始の診療</h3>  
@@ -244,7 +248,7 @@
                   <article>
                     <a href="" class="news__item news-item">
                       <div class="news-item__date">
-                        <time>0000.00.00</time>                        
+                        <time datetime="0000-00-00">0000.00.00</time>                        
                       </div>
                       <div class="news-item__title">
                         <h3>開院11周年</h3>  
@@ -263,7 +267,7 @@
         <!-- access -->
           <section id="access" class="access">
             <div class="inner">
-              <div class="access__title">
+              <div class="access__title section-title">
                 <div class="title-icon">
                   <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ">
                 </div> 
@@ -277,7 +281,7 @@
                   <div class="access-item__map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.2367610508945!2d129.83669517593583!3d32.81249117364886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356aad0aefe2a6b9%3A0x13f32e3d4c83018!2z44CSODUyLTgwNjUg6ZW35bSO55yM6ZW35bSO5biC5qiq5bC-77yR5LiB55uu77yV4oiS77yT77yW!5e0!3m2!1sja!2sjp!4v1776939451055!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </div>
-                  <div class="access-item__info">
+                  <address class="access-item__info">
                     <div class="access-item__name">
                       <p>滑石きたむら動物病院</p>
                     </div>
@@ -297,7 +301,7 @@
                       <p>診療時間：24時間365日</p>
                       <p>休診日：なし</p>
                     </div>
-                  </div>
+                  </address>
                 </div>
               </div>
             </div>
@@ -306,7 +310,7 @@
         <!-- contact -->
         <section id="contact" class="contact section-bg">
           <div class="inner">
-            <div class="contact__title">
+            <div class="contact__title section-title">
               <div class="title-icon">
                 <img src="./images/footprint_1.svg" alt="滑石きたむら動物病院のロゴ">
               </div> 
@@ -318,7 +322,7 @@
             <div class="contact__contents">
               <div class="contact__text">
                 <p>ご予約やご質問などお気軽にお問い合わせください。<br>
-お問い合わせいただいてから3日以内の変身となります。</p>
+お問い合わせいただいてから3日以内の返信となります。</p>
               </div>
               <div action="">
                 <form class="contact__form-block">
@@ -332,7 +336,7 @@
                   </dl>
                   <dl class="form-area">
                     <dt>
-                      <label for="your-name">メールアドレス</label>
+                      <label for="your-email">メールアドレス</label>
                     </dt>
                     <dd>
                       <input type="email" name="your-email" id="your-email" class="form-control">
