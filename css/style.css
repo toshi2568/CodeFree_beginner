@@ -477,7 +477,6 @@ news
 
 article {
   border-bottom: 0.1rem solid var(--border-color-gray);
-  transition: opacity 0.4s; 
 }
 article:first-of-type  {
   border-top: 0.1rem solid var(--border-color-gray);
@@ -495,6 +494,7 @@ article:first-of-type  {
   align-items: center;
   padding: 1.3rem 1.85rem 1.3rem;
   column-gap: calc(27 / 880 * 100%);
+  transition: opacity 0.4s; 
 }
 @media (max-width: 767px) {
   .news__item {
